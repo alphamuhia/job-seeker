@@ -9,7 +9,7 @@ function Homepage({ onAuth }) {
 
   const handleSubmit = (e) => {
     e.priventDefault();
-    // API
+    // auth
     onAuth();
     Navigate();
   };
